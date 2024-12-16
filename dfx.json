@@ -1,6 +1,12 @@
 {
 	"canisters": {
 		"frontend": {
+			"declarations": {
+				"bindings": null,
+				"env_override": null,
+				"node_compatibility": true,
+				"output": "app/generated/frontend"
+			},
 			"source": ["build/client"],
 			"type": "assets"
 		}
