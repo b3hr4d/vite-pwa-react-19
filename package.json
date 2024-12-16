@@ -1,6 +1,6 @@
 {
-	"name": "my-react-router-app",
-	"version": "1.0.2",
+	"name": "vite-pwa-react-19",
+	"version": "1.0.3",
 	"private": true,
 	"type": "module",
 	"scripts": {

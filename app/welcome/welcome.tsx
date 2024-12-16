@@ -39,7 +39,9 @@ export function Welcome() {
 								</li>
 							))}
 						</ul>
-						v{Number(process.env.PUBLIC_VERSION)}
+						<span className="text-sm text-gray-500 dark:text-gray-400 text-center mt-4">
+							v{process.env.PUBLIC_VERSION!.replace(/"/g, "")}
+						</span>
 					</nav>
 				</div>
 			</div>
